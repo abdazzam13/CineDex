@@ -4,11 +4,18 @@ Proyek ini dibuat untuk keperluan **Android Developer Technical Assessment Test*
 
 ---
 
+## 📱 Download APK
+
+File APK siap uji dapat diunduh langsung melalui halaman rilis berikut:  
+👉 **[Download CineDex v1.0.0 APK](https://github.com/abdazzam13/CineDex/releases/tag/v1.0.0)**
+
+---
+
 ## ⚙️ Konfigurasi API (local.properties)
 
 Untuk alasan keamanan kredensial, API Key dan Token TMDB disimpan di file `local.properties` (tidak ter-commit ke version control).
 
-Sebelum menjalankan aplikasi, buat atau tambahkan baris berikut ke dalam file `local.properties` di root project:
+Sebelum menjalankan aplikasi dari source code, buat atau tambahkan baris berikut ke dalam file `local.properties` di root project:
 
 ```properties
 TMDB_API_KEY=your_tmdb_api_key
